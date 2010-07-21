@@ -1,5 +1,16 @@
 require "sinatra"
 require "coloration"
+require "rack/contrib"
+
+use Rack::MailExceptions do |m|
+  m.config[:to] = ENV["MAIL_TO"]
+  m.config[:from] = ENV["MAIL_FROM"]
+  m.config[:smtp][:server] = "smtp.sendgrid.net"
+  m.config[:smtp][:domain] = ENV['SENDGRID_DOMAIN']
+  m.config[:smtp][:user_name] = ENV['SENDGRID_USERNAME']
+  m.config[:smtp][:password] = ENV['SENDGRID_PASSWORD']
+  m.config[:smtp][:authentication] = :plain
+end
 
 get "/" do
   erb :index
