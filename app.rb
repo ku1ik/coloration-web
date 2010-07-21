@@ -18,7 +18,7 @@ post "/" do
         @notice = "Success!"
         erb :result
       rescue Coloration::Readers::TextMateThemeReader::InvalidThemeError
-        @alert = "This file doesn't look like xml plist file with Textmate theme."
+        @alert = "This file doesn't look like xml plist file containing Textmate theme."
         erb :index
       end
     else

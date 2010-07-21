@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'DroidSansRegular';
+  src: local('☺'), url('DroidSans-webfont.woff') format('woff'), url('DroidSans-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSansBold';
+  src: local('☺'), url('DroidSans-Bold-webfont.woff') format('woff'), url('DroidSans-Bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSansMonoRegular';
+  src: local('☺'), url('DroidSansMono-webfont.woff') format('woff'), url('DroidSansMono-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, div, p, a, input, select {
+  font-family: 'DroidSansRegular', Arial, sans-serif;
+  font-size: 12pt;
+  line-height: normal;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+textarea {
+  font-family: 'DroidSansMonoRegular';
+  font-size: 12pt;
+  width: 99%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+#main {
+  width: 860px;
+  margin: 0 auto;
+}
+
+#header {
+  margin-bottom: 50px;
+}
+
+#logo .col1 {
+  color: white;
+  background-color: #A60A27;
+}
+
+#logo .col2 {
+  color: black;
+  background-color: #DED476;
+}
+
+#logo .col5 {
+  color: white;
+  background-color: #D98E04;
+}
+
+#logo .col4 {
+  color: white;
+  background-color: #D95525;
+}
+
+#logo .col3 {
+  color: white;
+  background-color: #633C27;
+}
+
+#logo .col6 {
+  color: white;
+  background-color: #4C1D1C;
+}
+
+#logo .col7 {
+  color: white;
+  background-color: #B22834;
+}
+
+#logo .col9 {
+  color: black;
+  background-color: #D9B490;
+}
+
+#logo .col10 {
+  color: white;
+  background-color: #2F3A59;
+}
+
+#logo .col8 {
+  color: white;
+  background-color: #1C2226;
+}
+
+#logo {
+  font-family: 'DroidSansMonoRegular', Monospace;
+  font-size: 36pt;
+  text-align: center;
+  font-weight: bold;
+  width: 280px;
+  float: left;
+  margin-right: 140px;
+}
+
+#logo span {
+  float: left;
+  width: 50px;
+  padding: 10px;
+}
+
+#desc {
+  float: left;
+  width: 400px;
+  text-align: justify;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  margin: 20px 20px 50px 20px;
+}
+
+.alert {
+  font-weight: bold;
+  color: #B22834;
+  font-size: 20pt;
+}
+
+.notice {
+  font-weight: bold;
+  color: #2F3A59;
+  font-size: 20pt;
+}
+
+a:link, a:visited, a:hover {
+  color: #D95525;
+}

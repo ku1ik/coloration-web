@@ -3,13 +3,33 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Coloration - editor color scheme converter</title>
+  <link rel="stylesheet" href="/reset.css" type="text/css" />
+  <link rel="stylesheet" href="/stylesheet.css" type="text/css" />
 </head>
 <body>
-  <% if @alert %>
-    <p class="alert"><%= @alert %></p>
-  <% elsif @notice %>
-    <p class="notice"><%= @notice %></p>
-  <% end %>
-  <%= yield %>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <span class="col1">c</span><span class="col2">o</span><span class="col3">l</span><span class="col4">o</span><span class="col5">r</span><span class="col6">a</span><span class="col7">t</span><span class="col8">i</span><span class="col9">o</span><span class="col10">n</span>
+        <div class="clear"></div>
+      </div>
+      <div id="desc">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="content">
+      <% if @alert %>
+        <p class="alert"><%= @alert %></p>
+      <% elsif @notice %>
+        <p class="notice"><%= @notice %></p>
+      <% end %>
+      <%= yield %>
+    </div>
+    <div id="footer">
+      <p>Created by Marcin Kulik</p>
+    </div>
+  </div>
 </body>
 </html>
