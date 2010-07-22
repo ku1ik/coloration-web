@@ -37,6 +37,14 @@ textarea {
   margin-bottom: 20px;
 }
 
+code {
+  font-family: 'DroidSansMonoRegular';
+  font-size: 11pt;
+  color: black;
+  background-color: #ddd;
+  padding: 2px;
+}
+
 #main {
   width: 860px;
   margin: 0 auto;
@@ -103,7 +111,7 @@ textarea {
   font-weight: bold;
   width: 280px;
   float: left;
-  margin-right: 140px;
+  margin-right: 80px;
 }
 
 #logo span {
@@ -114,12 +122,12 @@ textarea {
 
 #desc {
   float: left;
-  width: 400px;
+  width: 460px;
   text-align: justify;
 }
 
 #footer {
-  text-align: center;
+  text-align: right;
   margin-top: 50px;
 }
 
