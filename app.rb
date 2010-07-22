@@ -12,6 +12,8 @@ use Rack::MailExceptions do |m|
   m.config[:smtp][:authentication] = :plain
 end
 
+enable :raise_errors
+
 get "/" do
   erb :index
 end
