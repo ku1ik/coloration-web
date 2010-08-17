@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
 gem "sinatra", "1.0"
-gem "coloration", "0.2.3"
+gem "coloration", "0.2.4"
 gem "rack-contrib", :git => "git://github.com/rafaelss/rack-contrib.git", :branch => "mail"
 gem "mail", "2.2.1"
