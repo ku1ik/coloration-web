@@ -1,0 +1,41 @@
+GIT
+  remote: git://github.com/rafaelss/rack-contrib.git
+  revision: cb2c23e54e978ca546b4948868cb3c11438efb68
+  branch: mail
+  specs:
+    rack-contrib (0.9.3)
+      rack (>= 0.9.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (2.3.10)
+    color-tools (1.3.0)
+    coloration (0.2.5)
+      color-tools (>= 1.3.0)
+      plist (>= 3.1.0)
+      textpow19 (>= 0.11)
+    mail (2.2.1)
+      activesupport (>= 2.3.4)
+      mime-types
+      treetop (>= 1.4.5)
+    mime-types (1.16)
+    plist (3.1.0)
+    polyglot (0.3.1)
+    rack (1.2.1)
+    sinatra (1.0)
+      rack (>= 1.0)
+    textpow19 (0.11.0)
+      plist (>= 3.0.1)
+    treetop (1.4.8)
+      polyglot (>= 0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport (< 3.0)
+  coloration (= 0.2.5)
+  mail (= 2.2.1)
+  rack-contrib!
+  sinatra (= 1.0)
