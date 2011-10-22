@@ -8,9 +8,9 @@ GIT
 
 GIT
   remote: git://github.com/sickill/coloration.git
-  revision: 3c5a7e6697eae72902c27b88bddc54c762736ff4
+  revision: d91f03ad67a3670d9a4727d43b55d1e9121c95e8
   specs:
-    coloration (0.3.1)
+    coloration (0.3.2)
       color-tools (>= 1.3.0)
       plist (>= 3.1.0)
       textpow19 (>= 0.11)
